@@ -1,0 +1,7 @@
+/kc.EventBus/.vs
+/kc.EventBus/obj
+/kc.EventBus/bin
+/kc.EventBus.RabbitMQ/obj
+/kc.EventBus.RabbitMQ/bin
+/kc.IntegrationEventLog.EF/obj
+/kc.IntegrationEventLog.EF/bin
