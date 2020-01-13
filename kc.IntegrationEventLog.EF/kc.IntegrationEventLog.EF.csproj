@@ -5,6 +5,8 @@
     <Authors>chkien0911@gmail.com</Authors>
     <PackageLicenseFile>license.txt.txt</PackageLicenseFile>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Integration Events based on Entity Framework Core</Description>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

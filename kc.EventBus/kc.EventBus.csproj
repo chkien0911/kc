@@ -6,6 +6,8 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageLicenseFile>license.txt.txt</PackageLicenseFile>
+    <Description>Event bus abstraction that simplifies communication between microservies</Description>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
