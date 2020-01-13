@@ -5,3 +5,4 @@
 /kc.EventBus.RabbitMQ/bin
 /kc.IntegrationEventLog.EF/obj
 /kc.IntegrationEventLog.EF/bin
+*.user

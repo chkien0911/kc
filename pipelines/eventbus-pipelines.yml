@@ -39,12 +39,12 @@ steps:
     versioningScheme: 'off'
 
 # The last task is a nuget command, nuget push
-# This will push any .nupkg files to the 'TestFeed' artifact feed
 # allowPackageConflicts allows us to build the same version and not throw an error when trying to push
 # instead it just ingores the latest package unless the version changes
 - task: NuGetCommand@2
   displayName: 'nuget push'
   inputs:
     command: 'push'
+    packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg'
     feedsToUse: 'config'
-    includeNugetOrg: true
+    nugetConfigPath: '$(Build.WorkingDirectory)/NuGet.config'
